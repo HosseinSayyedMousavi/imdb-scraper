@@ -1,0 +1,112 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Movie",
+    "url": "/title/tt5433140/",
+    "name": "Fast X",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzZmOTU1ZTEtYzVhNi00NzQxLWI5ZjAtNWNhNjEwY2E3YmZjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+    "description": "Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.",
+    "review": {
+        "@type": "Review",
+        "itemReviewed": {
+            "@type": "CreativeWork",
+            "url": "/title/tt5433140/"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "ksgillihan"
+        },
+        "dateCreated": "2023-05-19",
+        "inLanguage": "English",
+        "name": "People actually gave this a 10????",
+        "reviewBody": "The Fast franchise is a movie series that should have faded away a long, long time ago. It started out as a fun but a bit over the top high-octane thrill ride but has descended into the realm of cartoons. With each iteration the action gets increasingly more and more unbelievable. Everybody likes an action film with chases and escapes and fights but what we get here is something like a bad anime in real life. Sure they tried and tried hard to make this movie more spectacular than all the others but one can only shut off their brain for so long. Pushing the boundaries of cinema is one thing but when you throw all sense and reality out the window you get, well this. In the first 5 minutes of the movie I already could tell this was going straight to the Moon with zero plan of how to actually get there. You see Dominic&apos;s 8 year old son driving and drifting a muscle car around a parking lot as if he was a pro. Utter ridiculous crap. What&apos;s next, to the actual Moon? Or maybe there is a secret bunker in the center of the Earth the team has to infiltrate in order to save the world? Or maybe Dom&apos;s car gets a time machine installed in it and they travel back in time to fight Hitler and the SS? I mean, why not? Everything else that happens in this movie is just as plausible. Everyone in Dom&apos;s team is an expert at everything and they all seem to be super-human as well. When will this garbage actually end?",
+        "reviewRating": {
+            "@type": "Rating",
+            "worstRating": 1,
+            "bestRating": 10,
+            "ratingValue": 4
+        }
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingCount": 29750,
+        "bestRating": 10,
+        "worstRating": 1,
+        "ratingValue": 6.3
+    },
+    "contentRating": "PG-13",
+    "genre": [
+        "Action",
+        "Adventure",
+        "Crime"
+    ],
+    "datePublished": "2023-05-19",
+    "keywords": "fast and furious franchise,dominic toretto character,shared universe,punched in the face,home invasion",
+    "trailer": {
+        "@type": "VideoObject",
+        "name": "In Theatres Now",
+        "embedUrl": "https://www.imdb.com/video/imdb/vi2052375577",
+        "thumbnail": {
+            "@type": "ImageObject",
+            "contentUrl": "https://m.media-amazon.com/images/M/MV5BMTc0ZDVkZTEtZGJmNy00ZjFjLTk1YmEtYjMzNzhkN2U1NmYzXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg"
+        },
+        "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMTc0ZDVkZTEtZGJmNy00ZjFjLTk1YmEtYjMzNzhkN2U1NmYzXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg",
+        "url": "https://www.imdb.com/video/vi2052375577/",
+        "description": "&apos;Fast X&apos; is now playing in theatres.",
+        "duration": "PT31S",
+        "uploadDate": "2023-05-17T15:16:09.899Z"
+    },
+    "actor": [
+        {
+            "@type": "Person",
+            "url": "/name/nm0004874/",
+            "name": "Vin Diesel"
+        },
+        {
+            "@type": "Person",
+            "url": "/name/nm0735442/",
+            "name": "Michelle Rodriguez"
+        },
+        {
+            "@type": "Person",
+            "url": "/name/nm0005458/",
+            "name": "Jason Statham"
+        }
+    ],
+    "director": [
+        {
+            "@type": "Person",
+            "url": "/name/nm0504642/",
+            "name": "Louis Leterrier"
+        }
+    ],
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "/company/co0005073/"
+        },
+        {
+            "@type": "Organization",
+            "url": "/company/co0518553/"
+        },
+        {
+            "@type": "Organization",
+            "url": "/company/co0313548/"
+        },
+        {
+            "@type": "Person",
+            "url": "/name/nm2669197/",
+            "name": "Dan Mazeau"
+        },
+        {
+            "@type": "Person",
+            "url": "/name/nm0510912/",
+            "name": "Justin Lin"
+        },
+        {
+            "@type": "Person",
+            "url": "/name/nm0860155/",
+            "name": "Gary Scott Thompson"
+        }
+    ],
+    "duration": "PT2H21M"
+}
