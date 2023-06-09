@@ -31,13 +31,26 @@ for i in range(2,n+1):
             r = requests.request("GET", url, headers=headers)
             soup = BeautifulSoup(r.text,"html.parser")
             element = json.loads(soup.select("script[type='application/ld+json']")[0].text)
+            writers=""
+            try:creators = element["creator"]
+            except:pass
+            else:
+                for creator in creators:
+                    if creator["@type"]=="Person":
+                        writers+=(","+creator["name"])
+            try:writers=writers[1:]
+            except:pass
+            else:print("\n"+"Writers: "+writers+"\n")
+            sheet.cell(row=i , column = 3).value = writers
             url2 =element["trailer"]["url"]
             r2 = requests.request("GET", url2, headers=headers)
             soup = BeautifulSoup(r2.text,"html.parser")
             element = json.loads(soup.select("script[id='__NEXT_DATA__']")[0].text)
             DownloadLink=element["props"]["pageProps"]["videoPlaybackData"]["video"]["playbackURLs"][1]["url"]
             sheet.cell(row=i , column = 2).value = DownloadLink
+            
             workbook.save("download_list.xlsx")
-            print("\n"+DownloadLink+"\n")
+            print("\n"+"Download Link: "+DownloadLink+"\n")
+            
         except:
             print("\nNOT EXISTS OR NOT FOUND!\n")

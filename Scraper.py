@@ -16,7 +16,6 @@ headers = {
   'sec-fetch-user': '?1',
   'upgrade-insecure-requests': '1',
   'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
-  'Cookie': 'session-id=139-2944897-7912339; session-id-time=2082787201l'
 }
 conn = sqlite3.connect('imdb.db')
 cursor = conn.cursor()
